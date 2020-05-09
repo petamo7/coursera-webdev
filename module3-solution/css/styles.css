@@ -1,0 +1,21 @@
+.navbar-brand {
+  height: 60px;
+}
+.navbar-brand h1 {
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list a {
+  text-align: center;
+  background-color: lightblue;
+  border: 1px solid gray;
+}
+
+.menu-item {
+  background-color: lightblue;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
