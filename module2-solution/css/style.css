@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.heading {
+    font-size: 175%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+div.container {
+    padding: 10px;
+    float: left;
+}
+
+div.section {
+    border: 1px solid black;
+    float: left;
+    background-color: lightgray;
+}
+
+div.title {
+    font-size: 125%;
+    border: 1px solid black;
+    width: 150px;
+    float: right;
+    clear: left;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: -1px;
+    right: -1px;
+}
+
+#first {
+    background-color: hotpink
+}
+
+#second {
+    color: white;
+    background-color: red;
+}
+
+#third {
+    background-color: khaki;
+}
+
+div.text {
+    float: left;
+    padding: 5px 15px 5px 15px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    div.container {
+        width: 33.33%;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    div.container {
+        width: 50%;
+    }
+    div.last {
+        width: 100%;
+    }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767.98px) {
+    div.container {
+        width: 100%;
+    }
+}
